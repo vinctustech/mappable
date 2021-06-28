@@ -3,7 +3,7 @@ ThisBuild / versionScheme := Some("semver-spec")
 lazy val mappable = crossProject(JSPlatform, JVMPlatform, NativePlatform).in(file(".")).
   settings(
     name := "mappable",
-    version := "0.1.1",
+    version := "0.1.2",
     scalaVersion := "2.13.6",
     scalacOptions ++=
       Seq(
